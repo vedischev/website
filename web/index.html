@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashion</title>
+</head>
+<body>
+
+    <meta http-equiv="Content-language" content="en">
+    <link rel="stylesheet" type="text/css" href="css/ow.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/base.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/bookmarks.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/jquery.emojipicker.css" media="all">
+    <style media="all">    #place_components .component {
+        float: left;
+    }
+
+    .configurable_component .ow_box_icons {
+        float: right;
+        padding-top: 6px;
+    }
+
+    .configurable_component h3 {
+        float: left;
+    }
+</head>
+
+<link href="css/flip.min.css" rel="stylesheet">
+    html {
+        font-size: 50%;
+    }
+
+    @media screen and (min-width: 390px) {
+        html {
+            font-size: 62.5%;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        html {
+            font-size: 75%;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        html {
+            font-size: 37.5%;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        html {
+            font-size: 50%;
+        }
+    }
+
+    @media screen and (min-width: 1920px) {
+        html {
+            font-size: 62.5%;
+        }
+    }
+    .ow_tr_delimiter {
+        display: none;
+    }
+    </style>
+
+    <div class="p-index">
+        <div class="p-index-header">
+        <img class="p-index-header-logo" src="./img/logo.svg" alt="Logo">
+        <div class="p-index-header-buttons-wrapper">
+            <a href="https://www.thelocaldate.com/sign-in" class="p-index-header-button p-index-header-button--black">Sign in</a>
+            <a href="javascript://" onclick="openJoinFloatbox()" class="p-index-header-button p-index-header-button--green">Join now!</a>
+        </div>
+    </div>
+    <div class="p-index-hero">
+        <div class="p-index-hero-text-block">
+        <p class="p-index-hero-welcome">Welcome to</p>
+        <h1 class="p-index-hero-title">The best<br class="h-mobile-only">
+            kept<br class="h-desktop-only"> secret<br class="h-mobile-only">
+            in<br class="h-desktop-only"> dating!</h1>
+        <div class="p-index-hero-sign-text">
+            <span class="p-index-hero-sign-text p-index-hero-sign-text--green">Sign up now</span> –
+            <span class="p-index-hero-sign-text p-index-hero-sign-text--red">it is absolutely free!</span>
+            <img class="p-index-hero-arrow" src="./img/icon-arrow-right-red.svg" alt="Sign up for free">
+    </div>
+    </div>
+        <style>
+        .ow_anno,
+        .ow_connect_buttons,
+        .ow_remember_me {
+     display: none;
+    }
+</style>
+
+<form id="form_pa81ji73" method="post" action="https://www.thelocaldate.com/base/user/ajax-sign-in/" name="sign-in" class="c-index-sign-in-form">
+<input name="form_name" id="input_x2v2py6eryt6332e347a39d0_bapameke" type="hidden" value="sign-in">
+<div class="c-index-sign-in">
+    <div class="c-index-sign-in-top">
+        <p class="c-index-sign-in-title">let’s chat</p>
+        <div class="c-index-sign-in-field-wrapper">
+            <div class="c-index-sign-in-input-wrapper">
+                <div class="c-index-sign-in-input-icon-wrapper c-index-sign-in-input-icon-wrapper--username"></div>
+                <input name="identity" id="input_v4johor1d4v6332e347a39e6_vihisoro" type="text" class="c-index-sign-in-input" placeholder="Username or Email">
+            </div>
+            <span id="input_v4johor1d4v6332e347a39e6_vihisoro_error" style="display:none;" class="error"></span>
+        </div>
+
+        <div class="c-index-sign-in-field-wrapper">
+            <div class="c-index-sign-in-input-wrapper">
+                <div class="c-index-sign-in-input-icon-wrapper c-index-sign-in-input-icon-wrapper--password"></div>
+                <input name="password" id="input_mob39ywyv4w1l6332e347a3a3c_qi7aneli" type="password" class="c-index-sign-in-input" placeholder="Password">
+            </div>
+            <span id="input_mob39ywyv4w1l6332e347a3a3c_qi7aneli_error" style="display:none;" class="error"></span>
+        </div>
+
+        <div class="c-index-sign-in-remember-wrapper">
+            <div class="c-index-sign-in-remember js-remember c-index-sign-in-remember--active">
+                <input name="remember" id="input_lewovu8odah6332e347a3a6c_b473hubo" type="checkbox" class="c-index-sign-in-remember-input js-remember-input" checked="checked">
+            </div>
+            <span class="c-index-sign-in-remember-text">Remember me
+            </span>
+        </div>
+        <div class="c-index-sign-in-security">
+            Your login information is encrypted and
+            stored safely with us
+        </div>
+        <span class="ow_button"><span class=" c-index-sign-in-button c-index-sign-in-button--submit"><input type="submit" value="Sign In" id="input_q18oj4mipe6332e347a3a82_z1m4s16u" class="c-index-sign-in-button c-index-sign-in-button--submit" name="submit"></span></span>
+    </div>
+    <div class="c-index-sign-in-bottom">
+        <p class="c-index-sign-in-restore-password">
+            <a href="https://www.thelocaldate.com/forgot-password">Forgot Password</a>
+        </p>
+        <p class="c-index-sign-in-join">
+            Not a member yet? <a class="c-index-sign-in-join-link" href="javascript://" onclick="openJoinFloatbox()">Join</a> for free
+        </p>
+        <div class="ow_connect_buttons">
+            
+        </div>
+    </div>
+    </div>
+</form>
+</div>
+
+        <img class="p-index-hero-image" src="./img/image-index-hero-model-2.png" alt="Model">
+    </div>
+    <div class="p-index-desc">
+        <div class="p-index-desc-profile-example">
+            <p class="p-index-desc-profile-example-name">Sunflower25</p>
+            <img class="p-index-desc-profile-example-image" src="img/image-profile-example-1.png" alt="Profile">
+            <img class="p-index-desc-profile-example-buttons" src="img/image-profile-example-buttons.png" alt="Profile">
+        </div>
+        <div class="p-index-desc-text-block">
+            <h2 class="p-index-desc-header">
+                Are you <span class="p-index-desc-header p-index-desc-header--green">looking</span>
+                to meet someone new?</h2>
+            <p class="p-index-desc-text">
+                Are you ready to add some <span class="p-index-desc-text p-index-desc-text--green">excitement</span>
+                to your life? Sign up, chat and <span class="p-index-desc-text p-index-desc-text--green"> meet </span> new people!
+            </p>
+        </div>
+    </div>
+    <div class="p-index-profiles">
+        <h3 class="p-index-profiles-header">Latest <span class="p-index-profiles-header p-index-profiles-header--red">Profiles</span></h3>
+        <div class="c-avatar-user-list">
+                            <a href="https://www.thelocaldate.com/user/flowergirlDidi" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377440_1664172508.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/caffeinewitch_" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377439_1664172373.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/drezzedupgeek" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377437_1664172481.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/loviedovieAU" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377436_1664172535.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/thaibloodedluv" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377438_1664172672.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/scififreakkass" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377433_1664172576.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/stagemamade" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377434_1664172626.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/firelikeracec4r" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377435_1664172494.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/yogabeztiejojo" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377431_1664172719.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/cotton21cindy" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377432_1664172471.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/XRingABella" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377429_1664172704.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/4dairyNplantonly" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377430_1664171826.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/stoneeyedswinga" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377427_1664172640.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/urfriendly_RN" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377426_1664172690.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/sweetspookypau" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377424_1664172652.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/h3althfr3ak" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377423_1664172520.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/soccahbeachy" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377425_1664172602.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/skiesofveggiez" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377420_1664172586.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/mscheercaptcar" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377421_1664172547.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/rivndaisies9" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377419_1664172563.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/frank48225" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377373_1664171524.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/justjoejoel" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377352_1664171556.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/rockhardlester" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377353_1664171605.jpg" alt="Avatar">
+    </a>
+    
+
+
+                        <a href="https://www.thelocaldate.com/user/doctoroncall" class="c-index-avatar">
+        <img class="c-index-avatar-image" src="./img/avatar_big_4377351_1664171514.jpg" alt="Avatar">
+    </a>
+    </div>
+
+<a href="javascript://" onclick="openJoinFloatbox()" class="p-index-profiles-button">View profiles</a>
+    </div>
+    <div class="p-index-joined">
+        <h3 class="p-index-joined-header">People
+            have already <span class="p-index-joined-header p-index-joined-header--red">joined</span></h3>
+        <p class="p-index-joined-subheader">People have already joined,
+            jump in!</p>
+        <div class="p-index-joined-counter tick" data-value="686542" data-did-init="setupFlip" data-state="initialised" aria-label="686596">
+            <div data-repeat="true" aria-hidden="true">
+                <span data-view="flip" class="tick-flip"><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(0deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper">6</span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper"></span></span><span class="tick-flip-panel-back-highlight" style="opacity: 2;"></span><span class="tick-flip-panel-back-shadow"></span></span></span><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper"></span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-360deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper">6</span></span><span class="tick-flip-panel-back-highlight" style="opacity: 0;"></span><span class="tick-flip-panel-back-shadow" style="opacity: 0;"></span></span></span><span class="tick-flip-spacer">6</span><span class="tick-flip-shadow-top tick-flip-shadow tick-flip-front"></span><span class="tick-flip-shadow-bottom tick-flip-shadow tick-flip-back"></span><span class="tick-flip-card-shadow" style="opacity: 0; transform: scaleY(0);"></span></span><span data-view="flip" class="tick-flip"><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(0deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper">8</span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper"></span></span><span class="tick-flip-panel-back-highlight" style="opacity: 2;"></span><span class="tick-flip-panel-back-shadow"></span></span></span><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper"></span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-360deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper">8</span></span><span class="tick-flip-panel-back-highlight" style="opacity: 0;"></span><span class="tick-flip-panel-back-shadow" style="opacity: 0;"></span></span></span><span class="tick-flip-spacer">8</span><span class="tick-flip-shadow-top tick-flip-shadow tick-flip-front"></span><span class="tick-flip-shadow-bottom tick-flip-shadow tick-flip-back"></span><span class="tick-flip-card-shadow" style="opacity: 0; transform: scaleY(0);"></span></span><span data-view="flip" class="tick-flip"><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(0deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper">6</span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper"></span></span><span class="tick-flip-panel-back-highlight" style="opacity: 2;"></span><span class="tick-flip-panel-back-shadow"></span></span></span><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper"></span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-360deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper">6</span></span><span class="tick-flip-panel-back-highlight" style="opacity: 0;"></span><span class="tick-flip-panel-back-shadow" style="opacity: 0;"></span></span></span><span class="tick-flip-spacer">6</span><span class="tick-flip-shadow-top tick-flip-shadow tick-flip-front"></span><span class="tick-flip-shadow-bottom tick-flip-shadow tick-flip-back"></span><span class="tick-flip-card-shadow" style="opacity: 0; transform: scaleY(0);"></span></span><span data-view="flip" class="tick-flip"><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(0deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper">5</span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper"></span></span><span class="tick-flip-panel-back-highlight" style="opacity: 2;"></span><span class="tick-flip-panel-back-shadow"></span></span></span><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper"></span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-360deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper">5</span></span><span class="tick-flip-panel-back-highlight" style="opacity: 0;"></span><span class="tick-flip-panel-back-shadow" style="opacity: 0;"></span></span></span><span class="tick-flip-spacer">5</span><span class="tick-flip-shadow-top tick-flip-shadow tick-flip-front"></span><span class="tick-flip-shadow-bottom tick-flip-shadow tick-flip-back"></span><span class="tick-flip-card-shadow" style="opacity: 0; transform: scaleY(0);"></span></span><span data-view="flip" class="tick-flip"><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(0deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper">9</span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper">9</span></span><span class="tick-flip-panel-back-highlight" style="opacity: 2;"></span><span class="tick-flip-panel-back-shadow"></span></span></span><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper">9</span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-360deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper">9</span></span><span class="tick-flip-panel-back-highlight" style="opacity: 0;"></span><span class="tick-flip-panel-back-shadow" style="opacity: 0;"></span></span></span><span class="tick-flip-spacer">9</span><span class="tick-flip-shadow-top tick-flip-shadow tick-flip-front"></span><span class="tick-flip-shadow-bottom tick-flip-shadow tick-flip-back"></span><span class="tick-flip-card-shadow" style="opacity: 0; transform: scaleY(0);"></span></span><span data-view="flip" class="tick-flip"><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(0deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper">6</span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper">6</span></span><span class="tick-flip-panel-back-highlight" style="opacity: 2;"></span><span class="tick-flip-panel-back-shadow"></span></span></span><span class="tick-flip-card"><span class="tick-flip-panel-front tick-flip-front tick-flip-panel" style="transform: rotateX(-180deg);"><span class="tick-flip-panel-front-text"><span class="tick-flip-panel-text-wrapper">6</span></span><span class="tick-flip-panel-front-shadow" style="opacity: 0;"></span></span><span class="tick-flip-panel-back tick-flip-back tick-flip-panel" style="transform: rotateX(-360deg);"><span class="tick-flip-panel-back-text"><span class="tick-flip-panel-text-wrapper">6</span></span><span class="tick-flip-panel-back-highlight" style="opacity: 0;"></span><span class="tick-flip-panel-back-shadow" style="opacity: 0;"></span></span></span><span class="tick-flip-spacer">6</span><span class="tick-flip-shadow-top tick-flip-shadow tick-flip-front"></span><span class="tick-flip-shadow-bottom tick-flip-shadow tick-flip-back"></span><span class="tick-flip-card-shadow" style="opacity: 0; transform: scaleY(0);"></span></span>
+            </div>
+        </div>
+        <a href="javascript://" onclick="openJoinFloatbox()" class="p-index-joined-button">JOIN NOW!</a>
+    </div>
+    <div class="footer footer--index">
+        <div class="footer-cols container">
+            <div class="footer-logo">
+                <img src="./img/logo-white.svg" alt="logo">
+            </div>
+            <div class="footer-col-item">
+                <div class="footer-col-title">
+                    Help &amp; Support
+                </div>
+                <ul class="footer-links">
+                    <li><a href="https://www.thelocaldate.com/prices">Prices</a></li>
+                    <li><a href="https://www.thelocaldate.com/membership/contact-us" target="_blank">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-item">
+                <div class="footer-col-title">
+                    Legal &amp; safety
+                </div>
+                <ul class="footer-links">
+                    <li><a href="https://www.thelocaldate.com/about-us">About Us</a></li>
+                    <li><a href="https://www.thelocaldate.com/faq">FAQ</a></li>
+                    <li><a href="https://www.thelocaldate.com/terms-and-conditions">Terms and Conditions</a></li>
+<li><a href="https://www.thelocaldate.com/privacy">Privacy policy</a></li>
+
+                                    </ul>
+            </div>
+            <div class="footer-col-item">
+                <p class="footer-site-info">Bogato Group Inc<br>
+180 N University Ave., Suite 270 Provo, UT, 84601<br>
+<a href="mailto:support@thelocaldate.com">support@thelocaldate.com</a><br>
+888 881 3254</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <span>
+Copyright © 2022 - <a style="color: #fff;" href="https://www.thelocaldate.com/">thelocaldate.com</a> All Rights Reserved.
+</span>
+        </div>
+    </div>
+    <div class="p-index-footer-mobile">
+        <div class="p-index-footer-mobile-section">
+            <h3 class="p-index-footer-mobile-section-header">Help &amp; Support</h3>
+            <a class="p-index-footer-mobile-link" href="https://www.thelocaldate.com/prices">Prices</a>
+            <a class="p-index-footer-mobile-link" href="https://www.thelocaldate.com/membership/contact-us">Contact Us</a>
+        </div>
+        <div class="p-index-footer-mobile-section">
+            <h3 class="p-index-footer-mobile-section-header">Legal &amp; safety</h3>
+            <a class="p-index-footer-mobile-link" href="https://www.thelocaldate.com/about-us">About Us</a>
+            <a class="p-index-footer-mobile-link" href="https://www.thelocaldate.com/faq">FAQ</a>
+            <a class="p-index-footer-mobile-link" href="https://www.thelocaldate.com/terms-and-conditions">Terms and Conditions</a>
+            <a class="p-index-footer-mobile-link" href="https://www.thelocaldate.com/privacy">Privacy Policy</a>
+        </div>
+        <div class="p-index-footer-mobile-section">
+            <p class="p-index-footer-mobile-site-info">Bogato Group Inc<br>
+180 N University Ave., Suite 270 Provo, UT, 84601<br>
+<a href="mailto:support@thelocaldate.com">support@thelocaldate.com</a><br>
+888 881 3254</p>
+        </div>
+        <div class="p-index-footer-mobile-section">
+            <p class="p-index-footer-mobile-copyright"> <span>
+Copyright © 2022 - <a style="color: #fff;" href="https://www.thelocaldate.com/">thelocaldate.com</a> All Rights Reserved.
+</span></p>
+        </div>
+    </div>
+
+<div style="display: none" id="floatbox_prototype">
+
+        <div class="default">
+        <div class="floatbox_canvas floatbox_default">
+            <div class="floatbox_preloader_container">
+                <div class="floatbox_preloader ow_floatbox_preloader"></div>
+            </div>
+
+            <div class="floatbox_container">
+				<div class="ow_bg_color">
+					<div class="floatbox_header">
+						<div class="clearfix floatbox_cap">
+							<h3 class="floatbox_title"></h3>
+							<div class="ow_box_cap_icons clearfix">
+								<a title="close" class="ow_ic_delete close" href="javascript://"></a>
+							</div>
+					   </div>
+					</div>
+					<div class="floatbox_body"></div>
+					<div class="floatbox_bottom"></div>
+				</div>
+            </div>
+        </div>
+    </div>
+
+        <div class="empty">
+        <div class="floatbox_canvas floatbox_empty">
+            <div class="floatbox_preloader_container">
+                <div class="floatbox_preloader ow_floatbox_preloader"></div>
+            </div>
+
+            <div class="floatbox_container">
+				<div class="ow_bg_color">
+					<div class="floatbox_header">
+						<div class="ow_box_cap_icons clearfix">
+							<a title="close" class="ow_ic_delete close" href="javascript://"></a>
+						</div>
+					</div>
+					<div class="floatbox_body"></div>
+					<div class="floatbox_bottom"></div>
+				</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="ow_message_cont"></div>
+</body>
+</html>
